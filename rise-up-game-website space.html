@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play Rise Up - The addictive balloon protection game where your reflexes are put to the test. Free online browser game with no downloads required.">
+    <meta name="keywords" content="rise up, balloon game, online game, free game, protection game, rise-up, rise-up space">
+    <link rel="canonical" href="https://rise-up.space">
+    <title>Rise Up - Protect Your Balloon in this Addictive Online Game | Rise-Up Space</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
+    <style>
+        :root {
+            --apple-blue: #007AFF;
+            --apple-green: #34C759;
+            --apple-orange: #FF9500;
+            --apple-red: #FF3B30;
+            --apple-purple: #AF52DE;
+            --apple-gray: #8E8E93;
+            --apple-black: #1C1C1E;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #F5F5F7;
+            color: var(--apple-black);
+        }
+
+        .game-container {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            background-color: white;
+            border-radius: 16px;
+            overflow: hidden;
+        }
+
+        .btn-primary {
+            background-color: var(--apple-blue);
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #0062CC;
+            transform: translateY(-2px);
+        }
+
+        .feature-card {
+            border-radius: 12px;
+            background-color: white;
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        .text-apple-blue {
+            color: var(--apple-blue);
+        }
+
+        .bg-apple-blue {
+            background-color: var(--apple-blue);
+        }
+
+        .text-apple-green {
+            color: var(--apple-green);
+        }
+
+        .bg-apple-green {
+            background-color: var(--apple-green);
+        }
+
+        .text-apple-orange {
+            color: var(--apple-orange);
+        }
+
+        .bg-apple-orange {
+            background-color: var(--apple-orange);
+        }
+        
+        .iframe-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 75%; /* 4:3 Aspect Ratio */
+        }
+        
+        .responsive-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="w-full bg-white shadow-sm">
+        <div class="container mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center mb-4 md:mb-0">
+                <div class="text-3xl font-bold text-apple-blue">Rise-Up Space</div>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#" class="text-gray-700 hover:text-apple-blue transition duration-300">Home</a></li>
+                    <li><a href="#how-to-play" class="text-gray-700 hover:text-apple-blue transition duration-300">How to Play</a></li>
+                    <li><a href="#features" class="text-gray-700 hover:text-apple-blue transition duration-300">Features</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Rise Up - The Ultimate Balloon Protection Game</h1>
+            <p class="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">Guide your balloon safely through a maze of obstacles in this addictive reflex-testing game!</p>
+            <div class="mt-8 flex justify-center">
+                <a href="#play-now" class="btn-primary px-8 py-3 rounded-full text-lg font-semibold">Play Now</a>
+            </div>
+        </section>
+
+        <section id="play-now" class="mb-16">
+            <div class="game-container max-w-4xl mx-auto">
+                <h2 class="text-2xl md:text-3xl font-bold mb-4 p-4 bg-apple-blue text-white rounded-t-lg">Play Rise Up Online</h2>
+                <div class="iframe-container">
+                    <iframe class="responsive-iframe" src="https://html5games.com/Game/Rise-Up/de20e6f4-fd89-414f-b200-6a20b3ac9378" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="mb-16">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-center">About Rise Up</h2>
+            <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="p-6">
+                    <p class="text-lg mb-4">
+                        Rise Up is an incredibly addictive game where your reflexes and precision are put to the ultimate test. Your mission is simple yet challenging: protect a fragile balloon as it rises through a series of unpredictable obstacles.
+                    </p>
+                    <p class="text-lg mb-4">
+                        Using your mouse or touchscreen, you must position a shield to deflect or avoid various objects that threaten to pop your balloon. As you progress, the obstacles become increasingly difficult, requiring quick thinking and precise movements.
+                    </p>
+                    <p class="text-lg">
+                        With its simple concept but challenging gameplay, Rise Up has become a global sensation, captivating players of all ages. How high can you go? Play now and find out!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-to-play" class="mb-16">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-center">How to Play</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <div class="feature-card p-6 shadow-md">
+                    <div class="w-12 h-12 bg-apple-blue rounded-full flex items-center justify-center text-white text-xl font-bold mb-4">1</div>
+                    <h3 class="text-xl font-semibold mb-2">Control the Shield</h3>
+                    <p>Use your mouse, trackpad, or finger (on mobile) to move the shield around your balloon.</p>
+                </div>
+                <div class="feature-card p-6 shadow-md">
+                    <div class="w-12 h-12 bg-apple-green rounded-full flex items-center justify-center text-white text-xl font-bold mb-4">2</div>
+                    <h3 class="text-xl font-semibold mb-2">Protect Your Balloon</h3>
+                    <p>Place the shield between your balloon and incoming obstacles to deflect them away.</p>
+                </div>
+                <div class="feature-card p-6 shadow-md">
+                    <div class="w-12 h-12 bg-apple-orange rounded-full flex items-center justify-center text-white text-xl font-bold mb-4">3</div>
+                    <h3 class="text-xl font-semibold mb-2">Rise Higher</h3>
+                    <p>The higher your balloon rises, the more points you earn. Try to reach new heights with each game!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="mb-16">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-center">Game Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-apple-blue">Simple Controls</h3>
+                    <p>Rise Up features intuitive controls that are easy to learn but difficult to master, making it accessible to players of all skill levels.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-apple-green">Increasing Difficulty</h3>
+                    <p>As you progress, the game gradually becomes more challenging with faster and more complex obstacle patterns.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-apple-orange">No Downloads Required</h3>
+                    <p>Play instantly in your browser without needing to download or install anything. Perfect for quick gaming sessions!</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-apple-purple">Cross-Platform</h3>
+                    <p>Enjoy Rise Up on any device - from desktop computers to tablets and smartphones, with a responsive design that adapts to your screen.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <div class="max-w-4xl mx-auto bg-apple-blue text-white rounded-xl overflow-hidden shadow-lg">
+                <div class="p-8 text-center">
+                    <h2 class="text-2xl md:text-3xl font-bold mb-4">Ready for the Challenge?</h2>
+                    <p class="text-lg mb-6">Test your reflexes and see how high you can rise!</p>
+                    <a href="#play-now" class="inline-block bg-white text-apple-blue font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition duration-300">Play Rise Up Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h2 class="text-2xl font-bold">Rise-Up Space</h2>
+                    <p class="text-gray-400">The home of the addictive balloon game</p>
+                </div>
+                <div>
+                    <p class="text-gray-400">&copy; 2025 Rise-Up Space. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
